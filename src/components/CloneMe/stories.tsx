@@ -1,8 +1,8 @@
-import { Meta, Story } from '@storybook/react/types-6-0';
-import { CloneMe, CloneMeProps } from '.';
+import { Meta, Story } from "@storybook/react/types-6-0";
+import { CloneMe, CloneMeProps } from ".";
 
 export default {
-  title: 'CloneMe',
+  title: "CloneMe",
   component: CloneMe,
 } as Meta;
 
