@@ -32,6 +32,7 @@
         {
           "id": "2",
           "attributes": {
+            "createdAt": "2020-04-20",
             "title": "React - Library or Framework?",
             "slug": "react-library-or-framework",
             "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula elementum consequat. Sed at bibendum ante, eget egestas turpis.",
