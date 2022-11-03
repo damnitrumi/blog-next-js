@@ -67,6 +67,6 @@ export default {
       text: "A menu",
     },
   ],
-  blogName: "Otávio Miranda",
+  blogName: "Guilherme Soares",
   logo: "/assets/images/me.jpeg",
 };
