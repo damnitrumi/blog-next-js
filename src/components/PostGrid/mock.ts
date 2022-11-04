@@ -1,3 +1,5 @@
+import { PostGridProps } from ".";
+
 export default {
   posts: [
     {
@@ -34,4 +36,4 @@ export default {
       slug: "react-library-or-framework",
     },
   ],
-};
+} as PostGridProps;

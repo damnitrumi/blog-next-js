@@ -19,3 +19,12 @@ export default {
 export const Template: Story<ArticleMetaProps> = (args) => {
   return <ArticleMeta {...args} />;
 };
+export const NoAuthor: Story<ArticleMetaProps> = (args) => {
+  return <ArticleMeta {...args} author={undefined} />;
+};
+export const NoCategories: Story<ArticleMetaProps> = (args) => {
+  return <ArticleMeta {...args} categories={undefined} />;
+};
+export const NoAuthorAndCategories: Story<ArticleMetaProps> = (args) => {
+  return <ArticleMeta {...args} author={undefined} categories={undefined} />;
+};
