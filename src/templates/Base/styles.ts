@@ -5,6 +5,7 @@ export const Container = styled.div``;
 export const HeaderContainer = styled.div`
   ${({ theme }) => css`
     margin-top: ${theme.spacings.xhuge};
+    padding: ${theme.spacings.large};
   `}
 `;
 

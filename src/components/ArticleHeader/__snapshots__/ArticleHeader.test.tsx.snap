@@ -100,9 +100,9 @@ exports[`<ArticleHeader/> should match snapshot 1`] = `
            | 
         </span>
         <time
-          datetime="2020-04-20"
+          datetime="2022-10-18T00:29:36.571Z"
         >
-          19 de abr. de 2020
+          17 de out. de 2022
         </time>
         <span
           class="separator"

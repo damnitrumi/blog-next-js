@@ -16,6 +16,15 @@ export const Container = styled.header`
     ${HeadingStyles} {
       margin: 0 0 calc(${theme.spacings.small} - 1rem);
     }
+
+    @media ${theme.media.lteSmall} {
+      flex-flow: column wrap;
+      padding-bottom: 0;
+
+      & > ${HeadingStyles} {
+        margin: 0 0 ${theme.spacings.medium} 0;
+      }
+    }
   `}
 `;
 
@@ -25,5 +34,9 @@ export const BlogInfo = styled.div`
     flex-flow: column wrap;
     margin-left: ${theme.spacings.large};
     max-width: 48rem;
+
+    @media ${theme.media.lteSmall} {
+      margin-left: 0;
+    }
   `}
 `;
