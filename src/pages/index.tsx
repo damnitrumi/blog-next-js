@@ -1,12 +1,11 @@
 import { GetStaticProps } from "next";
 import Head from "next/head";
 import { loadPosts, StrapiPostAndSettings } from "../api/load-posts";
+import { unformattedData } from "../shared-types/unformatted-data";
 import { PostsTemplate } from "../templates/PostsTemplate";
 import { mapData } from "../utils/map-data";
 
 export default function Index({ setting, posts }: StrapiPostAndSettings) {
-  console.log(setting);
-  console.log(posts);
   return (
     <>
       <Head>
@@ -21,16 +20,17 @@ export default function Index({ setting, posts }: StrapiPostAndSettings) {
 export const getStaticProps: GetStaticProps<
   StrapiPostAndSettings
 > = async () => {
-  let data = null;
+  let data: unformattedData | null = null;
+  let formattedData: StrapiPostAndSettings;
 
   try {
     data = await loadPosts();
-    data = mapData(data);
+    formattedData = mapData(data);
   } catch {
     data = null;
   }
 
-  if (!data || !data.posts || !data.posts.length) {
+  if (!data || !data.posts || !data.posts.data.length) {
     return {
       notFound: true,
     };
@@ -38,8 +38,9 @@ export const getStaticProps: GetStaticProps<
 
   return {
     props: {
-      setting: data.setting,
-      posts: data.posts,
+      setting: formattedData.setting,
+      posts: formattedData.posts,
     },
+    revalidate: 24 * 60 * 60,
   };
 };

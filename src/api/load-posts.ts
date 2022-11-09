@@ -3,6 +3,7 @@ import { SettingsStrapi } from "../shared-types/settings-strapi";
 import config from "../config";
 import { GRAPHQL_QUERY } from "../graphql/queries";
 import { PostStrapi } from "../shared-types/post-strapi";
+import { unformattedData } from "../shared-types/unformatted-data";
 
 // export type LoadPostsVariables = {
 //   categorySlug?: string;
@@ -43,7 +44,7 @@ export type StrapiPostAndSettings = {
 
 export const loadPosts = async (
   variables: LoadPostsVariables = {},
-): Promise<StrapiPostAndSettings> => {
+): Promise<unformattedData> => {
   const defaultVariables: LoadPostsVariables = {
     sort: "createdAt:desc",
     start: 0,
