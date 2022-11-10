@@ -1,11 +1,19 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { loadPosts, StrapiPostAndSettings } from "../../api/load-posts";
+import {
+  defaultLoadPostsVariables,
+  loadPosts,
+  StrapiPostAndSettings,
+} from "../../api/load-posts";
 import { PostsTemplate } from "../../templates/PostsTemplate";
 import { mapData } from "../../utils/map-data";
 
-export default function TagPage({ setting, posts }: StrapiPostAndSettings) {
+export default function TagPage({
+  setting,
+  posts,
+  variables,
+}: StrapiPostAndSettings) {
   const router = useRouter();
 
   if (router.isFallback) {
@@ -23,7 +31,7 @@ export default function TagPage({ setting, posts }: StrapiPostAndSettings) {
           Tag: {tagName} - {setting.blogName}
         </title>
       </Head>
-      <PostsTemplate posts={posts} settings={setting} />
+      <PostsTemplate posts={posts} settings={setting} variables={variables} />
     </>
   );
 }
@@ -39,9 +47,10 @@ export const getStaticProps: GetStaticProps<StrapiPostAndSettings> = async (
   ctx,
 ) => {
   let data = null;
+  const variables = { tagSlug: { eq: ctx.params.slug as string } };
 
   try {
-    data = await loadPosts({ tagSlug: { eq: ctx.params.slug as string } });
+    data = await loadPosts(variables);
     data = mapData(data);
   } catch {
     data = null;
@@ -57,6 +66,10 @@ export const getStaticProps: GetStaticProps<StrapiPostAndSettings> = async (
     props: {
       setting: data.setting,
       posts: data.posts,
+      variables: {
+        ...defaultLoadPostsVariables,
+        ...variables,
+      },
     },
     revalidate: 24 * 60 * 60,
   };

@@ -1,18 +1,26 @@
 import { GetStaticProps } from "next";
 import Head from "next/head";
-import { loadPosts, StrapiPostAndSettings } from "../api/load-posts";
+import {
+  defaultLoadPostsVariables,
+  loadPosts,
+  StrapiPostAndSettings,
+} from "../api/load-posts";
 import { unformattedData } from "../shared-types/unformatted-data";
 import { PostsTemplate } from "../templates/PostsTemplate";
 import { mapData } from "../utils/map-data";
 
-export default function Index({ setting, posts }: StrapiPostAndSettings) {
+export default function Index({
+  setting,
+  posts,
+  variables,
+}: StrapiPostAndSettings) {
   return (
     <>
       <Head>
         <title>{setting.blogName}</title>
         <meta name="description" content={setting.blogDescription} />
       </Head>
-      <PostsTemplate posts={posts} settings={setting} />
+      <PostsTemplate posts={posts} settings={setting} variables={variables} />
     </>
   );
 }
@@ -40,6 +48,9 @@ export const getStaticProps: GetStaticProps<
     props: {
       setting: formattedData.setting,
       posts: formattedData.posts,
+      variables: {
+        ...defaultLoadPostsVariables,
+      },
     },
     revalidate: 24 * 60 * 60,
   };
