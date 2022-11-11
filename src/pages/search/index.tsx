@@ -40,6 +40,7 @@ export const getServerSideProps: GetServerSideProps<
       notFound: true,
     };
   }
+
   const variables = { postSearch: { containsi: query as string } };
 
   try {
