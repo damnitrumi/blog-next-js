@@ -24,7 +24,7 @@ export type LoadPostsVariables = {
     eq: string;
   };
   postSearch?: {
-    eq: string;
+    containsi: string;
   };
   authorSlug?: {
     eq: string;

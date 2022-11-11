@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostsTemplate /> should match snapshot  1`] = `
-.c18 {
+.c20 {
   padding: 0 3.2rem;
   margin: 3.2rem 0;
   display: -webkit-box;
@@ -14,7 +14,7 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   justify-content: center;
 }
 
-.c19 {
+.c21 {
   background: #000000;
   color: #FFFFFF;
   border: none;
@@ -22,7 +22,7 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   cursor: pointer;
 }
 
-.c19:disabled {
+.c21:disabled {
   background: #AAAAAA;
 }
 
@@ -40,13 +40,13 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   text-transform: none;
 }
 
-.c16 .c5 {
+.c18 .c5 {
   margin: 0;
   margin-top: calc(1.6rem - 0.6rem);
   margin-bottom: 1.6rem;
 }
 
-.c16 a {
+.c18 a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -54,25 +54,25 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c16:hover a {
+.c18:hover a {
   color: #dc143c;
 }
 
-.c16:hover img {
+.c18:hover img {
   opacity: 0.8;
 }
 
-.c17 {
+.c19 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -81,18 +81,18 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   padding: 3.2rem;
 }
 
-.c22 {
+.c24 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c22 p {
+.c24 p {
   margin: 2.4rem 0;
 }
 
-.c22 a,
-.c22 a:visited,
-.c22 a:link {
+.c24 a,
+.c24 a:visited,
+.c24 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -100,12 +100,12 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c22 a:hover {
+.c24 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c22 code {
+.c24 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -114,7 +114,7 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   margin: 0.2rem;
 }
 
-.c22 pre {
+.c24 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -125,63 +125,63 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   font-size: 1.6rem;
 }
 
-.c22 pre code {
+.c24 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c22 img {
+.c24 img {
   max-width: 100%;
 }
 
-.c22 .image {
+.c24 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c22 .image figcaption {
+.c24 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c22 .image-style-side {
+.c24 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c22 hr {
+.c24 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c22 ul,
-.c22 ol {
+.c24 ul,
+.c24 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c22 .table {
+.c24 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c22 table {
+.c24 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c22 table td,
-.c22 table th {
+.c24 table td,
+.c24 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c22 blockquote {
+.c24 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -191,18 +191,18 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   margin: 2.4rem;
 }
 
-.c21 {
+.c23 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c21 a {
+.c23 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c23 {
+.c25 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -368,32 +368,56 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
   padding: 3.2rem;
 }
 
-.c13 {
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c20 {
+.c22 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
 @media (max-width:360px) {
-  .c15 {
+  .c17 {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width:768px) {
-  .c22 {
+  .c24 {
     font-size: 2rem;
   }
 
-  .c22 .image-style-side {
+  .c24 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -531,21 +555,36 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
     <div
       class="c13"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c15"
+    >
       <div
-        class="c14"
+        class="c16"
       >
         <div
-          class="c15"
+          class="c17"
         >
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/react-library-or-framework"
             >
               <img
                 alt="React - Library or Framework?"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dhzzrpp9c/image/upload/v1666050383/bruce_warrington_e_Mq_G0_Ppo_Gg_unsplash_c95c222cf2.jpg"
               />
             </a>
@@ -565,14 +604,14 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/react-library-or-framework"
             >
               <img
                 alt="React - Library or Framework?"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dhzzrpp9c/image/upload/v1666050383/bruce_warrington_e_Mq_G0_Ppo_Gg_unsplash_c95c222cf2.jpg"
               />
             </a>
@@ -592,14 +631,14 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/react-library-or-framework"
             >
               <img
                 alt="React - Library or Framework?"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dhzzrpp9c/image/upload/v1666050383/bruce_warrington_e_Mq_G0_Ppo_Gg_unsplash_c95c222cf2.jpg"
               />
             </a>
@@ -621,23 +660,23 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
         </div>
       </div>
       <div
-        class="c18"
+        class="c20"
       >
         <button
-          class="c19"
+          class="c21"
         >
           Carregar mais
         </button>
       </div>
     </div>
     <div
-      class="c20"
+      class="c22"
     >
       <footer
-        class="c21"
+        class="c23"
       >
         <div
-          class="c22"
+          class="c24"
         >
           <p>
             Just some text
@@ -647,7 +686,7 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
     </div>
     <a
       aria-label="Go To Top"
-      class="c23"
+      class="c25"
       href="#"
       title="Go To Top"
     >
@@ -675,7 +714,7 @@ exports[`<PostsTemplate /> should match snapshot  1`] = `
 exports[
   `<PostsTemplate /> should match snapshot with posts using mapData function 1`
 ] = `
-.c18 {
+.c20 {
   padding: 0 3.2rem;
   margin: 3.2rem 0;
   display: -webkit-box;
@@ -688,7 +727,7 @@ exports[
   justify-content: center;
 }
 
-.c19 {
+.c21 {
   background: #000000;
   color: #FFFFFF;
   border: none;
@@ -696,7 +735,7 @@ exports[
   cursor: pointer;
 }
 
-.c19:disabled {
+.c21:disabled {
   background: #AAAAAA;
 }
 
@@ -714,13 +753,13 @@ exports[
   text-transform: none;
 }
 
-.c16 .c5 {
+.c18 .c5 {
   margin: 0;
   margin-top: calc(1.6rem - 0.6rem);
   margin-bottom: 1.6rem;
 }
 
-.c16 a {
+.c18 a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -728,25 +767,25 @@ exports[
   transition: all 300ms ease-in-out;
 }
 
-.c16:hover a {
+.c18:hover a {
   color: #dc143c;
 }
 
-.c16:hover img {
+.c18:hover img {
   opacity: 0.8;
 }
 
-.c17 {
+.c19 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -755,18 +794,18 @@ exports[
   padding: 3.2rem;
 }
 
-.c22 {
+.c24 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c22 p {
+.c24 p {
   margin: 2.4rem 0;
 }
 
-.c22 a,
-.c22 a:visited,
-.c22 a:link {
+.c24 a,
+.c24 a:visited,
+.c24 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -774,12 +813,12 @@ exports[
   transition: all 300ms ease-in-out;
 }
 
-.c22 a:hover {
+.c24 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c22 code {
+.c24 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -788,7 +827,7 @@ exports[
   margin: 0.2rem;
 }
 
-.c22 pre {
+.c24 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -799,63 +838,63 @@ exports[
   font-size: 1.6rem;
 }
 
-.c22 pre code {
+.c24 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c22 img {
+.c24 img {
   max-width: 100%;
 }
 
-.c22 .image {
+.c24 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c22 .image figcaption {
+.c24 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c22 .image-style-side {
+.c24 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c22 hr {
+.c24 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c22 ul,
-.c22 ol {
+.c24 ul,
+.c24 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c22 .table {
+.c24 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c22 table {
+.c24 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c22 table td,
-.c22 table th {
+.c24 table td,
+.c24 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c22 blockquote {
+.c24 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -865,18 +904,18 @@ exports[
   margin: 2.4rem;
 }
 
-.c21 {
+.c23 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c21 a {
+.c23 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c23 {
+.c25 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -1042,32 +1081,56 @@ exports[
   padding: 3.2rem;
 }
 
-.c13 {
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c20 {
+.c22 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
 @media (max-width:360px) {
-  .c15 {
+  .c17 {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width:768px) {
-  .c22 {
+  .c24 {
     font-size: 2rem;
   }
 
-  .c22 .image-style-side {
+  .c24 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -1205,21 +1268,36 @@ exports[
     <div
       class="c13"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c15"
+    >
       <div
-        class="c14"
+        class="c16"
       >
         <div
-          class="c15"
+          class="c17"
         >
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/react-library-or-framework"
             >
               <img
                 alt="React - Library or Framework?"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dhzzrpp9c/image/upload/v1666050383/bruce_warrington_e_Mq_G0_Ppo_Gg_unsplash_c95c222cf2.jpg"
               />
             </a>
@@ -1239,14 +1317,14 @@ exports[
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/javascript-the-most-famous-language"
             >
               <img
                 alt="Javascript - The Most Famous Language"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dhzzrpp9c/image/upload/v1666051529/Boat_Unsplash_4e715a277b.jpg"
               />
             </a>
@@ -1268,23 +1346,23 @@ exports[
         </div>
       </div>
       <div
-        class="c18"
+        class="c20"
       >
         <button
-          class="c19"
+          class="c21"
         >
           Carregar mais
         </button>
       </div>
     </div>
     <div
-      class="c20"
+      class="c22"
     >
       <footer
-        class="c21"
+        class="c23"
       >
         <div
-          class="c22"
+          class="c24"
         >
           <p>
             Just some text
@@ -1294,7 +1372,7 @@ exports[
     </div>
     <a
       aria-label="Go To Top"
-      class="c23"
+      class="c25"
       href="#"
       title="Go To Top"
     >
@@ -1320,31 +1398,6 @@ exports[
 `;
 
 exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
-.c17 {
-  padding: 0 3.2rem;
-  margin: 3.2rem 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c18 {
-  background: #000000;
-  color: #FFFFFF;
-  border: none;
-  padding: 1.6rem 3.2rem;
-  cursor: pointer;
-}
-
-.c18:disabled {
-  background: #AAAAAA;
-}
-
 .c6 {
   color: #000000;
   line-height: 1.2;
@@ -1359,17 +1412,17 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   text-transform: none;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   padding: 3.2rem;
   text-align: center;
   font-size: 1.6rem;
 }
 
-.c16 {
+.c18 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -1665,7 +1718,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   padding: 3.2rem;
 }
 
-.c13 {
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -1679,8 +1732,32 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   padding: 3.2rem;
 }
 
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
 @media (max-width:360px) {
-  .c16 {
+  .c18 {
     grid-template-columns: 1fr;
   }
 }
@@ -1828,26 +1905,32 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
     <div
       class="c13"
     >
+      <form
+        action="/search/"
+        method="GET"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Encontre posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c15"
+    >
       <div
-        class="c14"
+        class="c16"
       >
         <p
-          class="c15"
+          class="c17"
         >
           Nenhum post encontrado aqui =(
         </p>
         <div
-          class="c16"
-        />
-      </div>
-      <div
-        class="c17"
-      >
-        <button
           class="c18"
-        >
-          Carregar mais
-        </button>
+        />
       </div>
     </div>
     <div
