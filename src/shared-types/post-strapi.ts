@@ -5,4 +5,5 @@ export type PostStrapi = PostProps & {
   tags: PostTag[];
   slug: string;
   id: string;
+  allowComments: boolean;
 };
