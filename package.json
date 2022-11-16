@@ -13,7 +13,8 @@
     "deploy-static": "npm run build && npm run export",
     "lint": "eslint src --max-warnings=0",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "npm install --package-lock-only --ignore-scripts && npx npm-force-resolutions"
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.28.0",
@@ -60,5 +61,8 @@
       "npm run lint -- --fix",
       "npm test -- --findRelatedTests --bail"
     ]
+  },
+  "resolutions": {
+    "@types/react": "^17.0.38"
   }
 }
