@@ -3,5 +3,5 @@ export default {
   siteName: "Guilherme Soares",
   defaultSlug: "strapi-blog",
   // graphqlURL: "http://localhost:1337/graphql",
-  graphqlURL: "http://strapi-blog-rumi.herokuapp.com/graphql",
+  graphqlURL: "https://strapi-blog-rumi.herokuapp.com/graphql",
 };
